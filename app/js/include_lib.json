@@ -1,0 +1,8 @@
+{
+    "jquery": "node_modules/jquery/dist/jquery.min.js",
+    "tmpl": "node_modules/blueimp-tmpl/js/tmpl.min.js",
+    "backbone": "node_modules/backbone/backbone-min.js",
+    "underscore": "node_modules/underscore/underscore-min.js",
+    "loaders": "app/js/library/loaders.js",
+    "text": "app/js/library/text.js"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "fastypack",
+  "version": "0.1.0",
+  "description": "Сборщик ",
+  "dependencies": {
+    "backbone": "^1.2.3",
+    "blueimp-tmpl": "^3.4.0",
+    "jquery": "^2.2.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "author": "Webs <rainbluz@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "fasty": "./node_modules/fasty"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weber/fastypack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/weber/fastypack/issues"
+  },
+  "homepage": "https://github.com/weber/fastypack"
+}

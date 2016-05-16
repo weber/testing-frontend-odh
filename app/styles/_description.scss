@@ -1,0 +1,7 @@
+.b-description{
+    line-height: 1.5;
+    padding: 1rem;
+    @include fluid-type(font-size, 320px, 1366px, 1.3rem, 1.4rem);
+    .b-description__item{
+    }
+}

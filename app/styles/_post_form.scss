@@ -1,0 +1,27 @@
+.b-post_form__add{
+    margin: 1rem;
+    padding: 1rem;
+
+    .b-post_form__item{
+        padding: 0.5rem 0;
+        .b-post_form__btn{
+            padding: 0.5rem;
+            display: none;
+        }
+    }
+}
+
+.b-posts_cnt{
+    margin: 2rem 0;
+    padding: 1rem;
+
+    .b-posts_item{
+        margin: 1rem 0 3rem 0;
+
+        .post_image{
+            width: 28.9rem;
+            margin: 1rem 0;
+            display: block;
+        }
+    }
+}

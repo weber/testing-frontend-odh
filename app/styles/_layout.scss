@@ -1,0 +1,84 @@
+/*
+   Классы, настройки основопологающих каркасных элементов(шапка, подвал, колонки, контентный блок )
+*/
+
+// вспомогательные классы
+// базовый падинг
+%main-padding{
+    padding: 1rem;
+}
+// ограничетель ширины контента
+%width-1024{
+    width: 100%;
+    @media (min-width: 1366px) {
+        width: 1366px;
+        margin: 0 auto;
+    }
+}
+// задание цветов хедера
+%bg_header{
+    background: #f0f0e7;
+    color: #000;
+}
+
+// задание цветов футера
+%bg_footer{
+    background: #f0f0e7;
+    color: #000;
+}
+
+// классы  базовых комонентов
+.b-wrapper{
+    @extend %row;
+    //min-height: 100vh;
+    &:after {
+        content: "";
+        display: block;
+    }
+}
+
+//- шапка
+header{
+    @extend %row;
+    @extend %bg_header;
+    box-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+//-- контейнер элементов(резиновый)
+.b-cntr {
+    @extend %row;
+    @include mq-justify(center);
+}
+//-- контейнер элементов(фиксированной шириной)
+.b-cntr__with_width{
+    @extend %row;
+    @include mq-justify(center);
+    @extend %width-1024;
+}
+
+//--- контентный элемент
+.b-cnt {
+    @include col(12);
+
+    @media (min-width: 1000px) {
+        @include col(9);
+    }
+}
+//--- контентный элемент(левая/правая колонка)
+.aside {
+    @include col(12);
+    @extend %main-padding;
+
+    @media (min-width: 1000px) {
+        @include col(3);
+    }
+}
+//- Подвал
+footer{
+    //@extend %row;
+    @extend %bg_footer;
+
+}
+
+
+

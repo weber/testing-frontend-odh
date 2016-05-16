@@ -1,0 +1,269 @@
+{% extends 'layout/layout.swig' %}
+
+{% block content %}
+    {% block description %}{% endblock %}
+    {% block experience %}{% endblock %}
+{% endblock %}
+
+{% block header %}
+<div class="b-persona ">
+    <div class="b-personal__base clearfix">
+        <div class="b-persona__img">
+            <img src="https://avatars0.githubusercontent.com/u/222118?v=3&s=120"  alt="">
+        </div>
+        <div class="b-persona__name">
+            <h1>Кириченко Сергей Анатольевич</h1>
+        </div>
+        <div class="b-persona__desc">
+            <div><b>36 лет</b> (2 июля 1979)</div>
+            <div><b>Мужской</b> пол</div>
+            <div> <b>​Минеральные Воды</b></div>
+        </div>
+    </div>
+    <div class="b-personal_contact">
+        <div class="b-personal_contact__item">
+           <b>Телефон:</b> <a href="tel:+7 928 345-07-14">+7 928 345-07-14</a>
+        </div>
+        <div class="b-personal_contact__item">
+            <b>Skype:</b> <a href="skype:rainbluz">rainbluz</a>
+        </div>
+        <div class="b-personal_contact__item">
+            <b>github:</b> <a href="https://github.com/weber">https://github.com/weber</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block description %}
+<div class="b-description">
+    <h2>Опыть работы</h2>
+    <div class="b-description__item"><b>javascript:</b> Backbonejs, matreshkajs…</div>
+    <div class="b-description__item"><b>PHP:</b> Yii framework, Slim…</div>
+    <div class="b-description__item"><b>Nodejs:</b> (Compoundjs) grunt, gulp…</div>
+    <div class="b-description__item"><b>БД:</b> Mysql, redis</div>
+    <div class="b-description__item"><b>CSS:</b> stylus, sass/scss, адаптивная верстка</div>
+    <div class="b-description__item"><b>SCV:</b> git, svn</div>
+    <div class="b-description__item">Разработка архитектуры web-приложения, разработка CRM, CMF</div>
+</div>
+{% endblock %}
+
+{% block experience %}
+<div class="b-experience">
+    <div class="b-experience__item">
+        <div class="b-experience__period_work">
+           <span> Май 2015 — по настоящее время</span>
+           <div class="b-experience__period_work__working">
+               1 год 1 месяц
+           </div>
+        </div>
+        <div class="b-experience__place">
+            <div class="b-experience__place_org">
+                <div class="b-experience__place_org__title">
+                    webelemet
+                </div>
+                <div class="b-experience__place_org__address">
+                    Пятигорск, avto25.ru
+                </div>
+
+            </div>
+            <div class="b-experience__place_post">
+                <div class="b-experience__place_post_title">web разрабочик</div>
+                Разработка, поддержка проекта компании — PHP, javascript (BackboneJS), nodejs(парсеры), mysql
+            </div>
+        </div>
+    </div>
+    <div class="b-experience__item">
+        <div class="b-experience__period_work">
+           <span>Февраль 2015 — май 2015</span>
+           <div class="b-experience__period_work__working">
+               4 месяца
+           </div>
+        </div>
+        <div class="b-experience__place">
+            <div class="b-experience__place_org">
+                <div class="b-experience__place_org__title">
+                    Intop
+                </div>
+                <div class="b-experience__place_org__address">
+                    Краснодар
+                </div>
+
+            </div>
+            <div class="b-experience__place_post">
+                <div class="b-experience__place_post_title">web разрабочик</div>
+                Разработка сайтов
+                php, javascript
+            </div>
+        </div>
+    </div>
+    <div class="b-experience__item">
+        <div class="b-experience__period_work">
+           <span>Сентябрь 2014 — декабрь 2014</span>
+           <div class="b-experience__period_work__working">
+               4 месяца
+           </div>
+        </div>
+        <div class="b-experience__place">
+            <div class="b-experience__place_org">
+                <div class="b-experience__place_org__title">
+                    Starcode
+                </div>
+                <div class="b-experience__place_org__address">
+                    Краснодар, starcode.ru
+                </div>
+            </div>
+            <div class="b-experience__place_post">
+                <div class="b-experience__place_post_title">PHP программист</div>
+                Разработка социального портала для Москвы и Московской области
+                Разработка модулей для drupal
+            </div>
+        </div>
+    </div>
+    <div class="b-experience__item">
+        <div class="b-experience__period_work">
+           <span>Май 2011 — сентябрь 2014</span>
+           <div class="b-experience__period_work__working">
+               3 года 5 месяцев
+           </div>
+        </div>
+        <div class="b-experience__place">
+            <div class="b-experience__place_org">
+                <div class="b-experience__place_org__title">
+                    webelemet
+                </div>
+                <div class="b-experience__place_org__address">
+                    Пятигорск, avto25.ru
+                </div>
+            </div>
+            <div class="b-experience__place_post">
+                <div class="b-experience__place_post_title">web разрабочик</div>
+                Разработка, поддержка проекта компании — (PHP (yii framework, PhalconPHP), javascript (BackboneJS), mysql)
+            </div>
+        </div>
+    </div>
+    <div class="b-experience__item">
+        <div class="b-experience__period_work">
+           <span>Апрель 2011 — ноябрь 2011</span>
+           <div class="b-experience__period_work__working">
+               8 месяцев
+           </div>
+        </div>
+        <div class="b-experience__place">
+            <div class="b-experience__place_org">
+                <div class="b-experience__place_org__title">
+                    maombi
+                </div>
+                <div class="b-experience__place_org__address">
+                    Пятигорск, maombi.ru
+                </div>
+            </div>
+            <div class="b-experience__place_post">
+                <div class="b-experience__place_post_title">web разрабочик</div>
+                Разработка регионального web сервиса.
+                - разработка web приложений; разработка пользовательского интерфейса;
+                - JavaScript(jQuery,FullAjax),PHP(yii framework)
+                - mySql
+            </div>
+        </div>
+    </div>
+    <div class="b-experience__item">
+        <div class="b-experience__period_work">
+           <span>Июнь 2010 — апрель 2011</span>
+           <div class="b-experience__period_work__working">
+               11 месяцев
+           </div>
+        </div>
+        <div class="b-experience__place">
+            <div class="b-experience__place_org">
+                <div class="b-experience__place_org__title">
+                    компания Развитие
+                </div>
+                <div class="b-experience__place_org__address">
+                    Санкт-Петербург, raz-vitie.ru
+                </div>
+            </div>
+            <div class="b-experience__place_post">
+                <div class="b-experience__place_post_title">web-разработчик</div>
+                - создание/поддержка сайтов,
+                - js(jquery),php
+                - mysql
+                - cms:profitCMS и другие.
+                - доработка CMS ProfitCMS
+            </div>
+        </div>
+    </div>
+    <div class="b-experience__item">
+        <div class="b-experience__period_work">
+           <span>Сентябрь 2009 — апрель 2010</span>
+           <div class="b-experience__period_work__working">
+               8 месяцев
+           </div>
+        </div>
+        <div class="b-experience__place">
+            <div class="b-experience__place_org">
+                <div class="b-experience__place_org__title">
+                    компания "Курортное объединение"
+                </div>
+                <div class="b-experience__place_org__address">
+                    Пятигорск
+                </div>
+            </div>
+            <div class="b-experience__place_post">
+                <div class="b-experience__place_post_title">web-разработчик</div>
+                разработка CRM+система бронирование путёвок+магазин;
+                - JavaScript(jQuery,FullAjax), php
+                - MySql
+            </div>
+        </div>
+    </div>
+    <div class="b-experience__item">
+        <div class="b-experience__period_work">
+           <span>Январь 2009 — сентябрь 2009</span>
+           <div class="b-experience__period_work__working">
+               9 месяцев
+           </div>
+        </div>
+        <div class="b-experience__place">
+            <div class="b-experience__place_org">
+                <div class="b-experience__place_org__title">
+                    РА "Allmedia"
+                </div>
+                <div class="b-experience__place_org__address">
+                    Санкт-Петербург, allmedia.ws
+                </div>
+            </div>
+            <div class="b-experience__place_post">
+                <div class="b-experience__place_post_title">web-разработчик</div>
+                разработка веб-сайтов; разработка модулей; разработка пользовательского интерфейса; SEO;
+                - JavaScript(jQuery,FullAjax), php
+                - MySql
+                - cms Modx
+        </div>
+    </div>
+</div>
+    <div class="b-experience__item">
+        <div class="b-experience__period_work">
+           <span>Июнь 2008 — январь 2009</span>
+           <div class="b-experience__period_work__working">
+               8 месяцев
+           </div>
+        </div>
+        <div class="b-experience__place">
+            <div class="b-experience__place_org">
+                <div class="b-experience__place_org__title">
+                    РА Brandpro
+                </div>
+                <div class="b-experience__place_org__address">
+                    Санкт-Петербург, brandpro.ru
+                </div>
+            </div>
+            <div class="b-experience__place_post">
+                <div class="b-experience__place_post_title">web-разработчик</div>
+                - создание сайтов; разработка модулей; разработка пользовательского интерфейса; SEO;
+                - JavaScript(jQuery, Fullajax), php
+                - MySql, MSSql
+                - cms: modx, sapid
+        </div>
+    </div>
+</div>
+{% endblock %}

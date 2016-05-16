@@ -1,0 +1,56 @@
+.b-experience{
+    margin: 1rem 0;
+    .b-experience__item{
+        @extend %row;
+        padding: 2rem 2rem;
+        pa
+
+        .b-experience__period_work{
+            @include col(12);
+            padding: 0rem 0 1rem;
+
+            @media (min-width: 1366px) {
+                @include col(4);
+                padding: 1rem 0 1rem;
+            }
+
+            .b-experience__period_work__working{
+                color: #989898;
+            }
+        }
+        .b-experience__place{
+            @include col(12);
+
+            @media (min-width: 1366px) {
+                @include col(8);
+            }
+
+            .b-experience__place_org{
+
+                padding-bottom: 1rem;
+
+                .b-experience__place_org__title{
+                    @include fluid-type(font-size, 320px, 1366px, 1.6rem, 1.8rem);
+                    font-weight: bold;
+                }
+                .b-experience__place_org__address{
+                    margin: 0.2rem 0  0rem 0;
+                    @include fluid-type(font-size, 320px, 1366px, 1.3rem, 1.4rem);
+                }
+            }
+
+            .b-experience__place_post{
+                @include fluid-type(font-size, 320px, 1366px, 1.3rem, 1.4rem);
+
+                .b-experience__place_post_title{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .b-experience__item:nth-child(2n) {
+        background: #f0f0f0;
+        box-shadow: 0 1px 2px rgba(0,0,0,.3);
+    }
+}
